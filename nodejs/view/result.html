@@ -1,0 +1,258 @@
+ <!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Bootstrap, a sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.">
+<meta name="keywords" content="HTML, CSS, JS, JavaScript, framework, bootstrap, front-end, frontend, web development">
+<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+
+<title>
+
+    ScanNetwork
+
+</title>
+
+<!-- Bootstrap core CSS -->
+<link href="/css/bootstrap.css" rel="stylesheet">
+
+
+<!-- Documentation extras -->
+<link href="/css/docs.css" rel="stylesheet">
+
+    <!-- Docs master nav -->
+    <header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" class="navbar-brand">ScanNetwork</a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/contribt">Contribtours</a>
+        </li>
+        <li>
+          <a href="/developers">Developers</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+	  <p></p>
+
+    </nav>
+  </div>
+</header>
+
+
+
+</br></br></br></br>
+<div class="container">
+    <div class="row vertical-offset-100">
+    	<div class="col-md-10 col-md-offset-1">
+    		<div class="panel panel-default">
+			  	<div class="panel-heading">
+			    	<div class="panel-title">
+
+
+						<h4><span class="label label-info"> <%= file_name %></span></h4>
+						<h5><i class="glyphicon glyphicon-barcode"></i><b> Md5 Hash : </b><a id="file-hash" value="<%= file_hash %>"><%= file_hash %></a></h5>
+						<h5><i class="glyphicon glyphicon-import"></i><b> Scan date : </b><a><%= file_date %></a></h5>
+						</br>
+						<h5><i class="glyphicon glyphicon-search"></i><b> Scan results : </b><span id="rs_ratio">Checking..</span></h5>
+            <div class="progress">
+               <div id="clean_progress" class="progress-bar progress-bar-success" style="width: 50%">
+                <span class="sr-only">0% Complete (success)</span>
+                </div>
+                <div id="inf_progress" class="progress-bar progress-bar-danger" style="width: 0%">
+                <span class="sr-only">100% Complete (danger)</span>
+               </div>
+            </div>
+
+
+					</div>
+			 	</div>
+
+			  	<div class="panel-body">
+
+<table class="table" id="myresult">
+        <thead>
+          <tr>
+            <th>AntiVirus Name</th>
+            <th>Result</th>
+            <th>Last Update</th>
+          </tr>
+        </thead>
+        <tbody>
+        <tr>
+        </tr>
+
+
+		</tbody>
+</table>
+
+			    </div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+<!-- footer -->
+<footer class="bs-docs-footer" role="contentinfo">
+	<div class="container">
+		    <div class="bs-docs-social">
+  <ul class="bs-docs-social-buttons">
+    <li class="follow-btn">
+    <a href="https://twitter.com/Scan_Network" class="twitter-follow-button" data-show-count="false">Follow @Scan_Network</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+</script>
+    </li>
+
+  </ul>
+</div>
+
+
+    <p>Designed and built by <a href="#">Bazaid</a> & <a href="#" target="_blank">unCoder</a> & <a href="#" target="_blank">Simon-Benyo</a></p>
+    <p>Special thanks to <a href="https://github.com/twbs/bootstrap/graphs/contributors">our contributors</a>.</p>
+    <p>Code and desgined using <a href="https://github.com/twbs/bootstrap/blob/master/LICENSE" target="_blank">Bootstrap</a>, runtime worker using <a href="http://creativecommons.org/licenses/by/3.0/">node js</a>. with the help of <a href="http://creativecommons.org/licenses/by/3.0/">c# desktop client</a></p>
+    <ul class="bs-docs-footer-links muted">
+
+	<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_donations">
+<input type="hidden" name="business" value="bazaid.abdullah@me.com">
+<input type="hidden" name="lc" value="SA">
+<input type="hidden" name="item_name" value="ScanNetwork">
+<input type="hidden" name="no_note" value="0">
+<input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+
+	</div>
+</footer>
+
+
+	</html>
+
+	<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="/js/jquery.js"></script>
+<script src="/js/bootstrap.js"></script>
+<script>
+
+
+
+$(function(){
+
+   var IKARUS =false,AVIRA =false,AVAST =false;
+   var re = '<%= file_result %>'
+   var results = re.split('{0}');
+    console.log(re);
+var rs_ratio = 0;
+var clean_progress  = 0;
+var inf_progress = 0;
+
+   console.log(rs_ratio);
+   results.forEach(function(result)  {
+     if (result != "")
+       {
+
+
+		var currResult = result.split('|');
+		var AvName = currResult[0];
+		var AvResult = currResult[1];
+		var AvUpdate = currResult[2];
+
+
+
+ var html = "";
+    html = '<tr id= "'+AvName+'">';
+  html += ' <td>'+AvName+'</td>'
+  html += "  <td>"+AvResult+"</td>";
+  html += "  <td>"+AvUpdate+"</td>"
+  html += "</tr>";
+var av_id = "#"+AvName;
+
+$('#myresult tr:last').after(html);
+console.log(AvResult);
+if(AvResult.indexOf('File is clean.')>=0)
+{ $(av_id).css('color', 'green'); ProgressSet(true);  rs_ratio = ((rs_ratio > 0) ? rs_ratio-1 : 0); } else { $(av_id).css('color', 'red'); rs_ratio += 1;  ProgressSet(false);}
+
+if (AvName =='Avira')
+  {
+    AVIRA =true;
+  }else if(AvName =='Avast')
+    {
+      AVAST = true;
+    }
+
+
+}
+
+	});
+
+
+function ProgressSet(clean)
+{
+  var ra = 912/(results.length-1)
+  var anti_pr_ra = ra;
+  if (clean)
+  {
+  clean_progress = clean_progress + anti_pr_ra;
+  } else {
+   inf_progress = inf_progress + anti_pr_ra;
+  }
+
+
+}
+
+$('#clean_progress').css('width', clean_progress);
+$('#inf_progress').css('width', inf_progress);
+
+var n = results.length-1;
+$("#rs_ratio").text(''+rs_ratio+'/'+n);
+
+
+setTimeout(function(){
+if (AVIRA == false)
+  {
+     var html = "";
+       html = '<tr id= "Avira">';
+     html += ' <td>Avira</td>'
+     html += "  <td>Offline</td>";
+     html += "  <td>-</td>"
+     html += "</tr>";
+     $('#myresult tr:last').after(html);
+  }
+
+  if (AVAST == false)
+    {
+       var html = "";
+         html = '<tr id= "Avast">';
+       html += ' <td>Avast</td>'
+       html += "  <td>Offline</td>";
+       html += "  <td>-</td>"
+       html += "</tr>";
+       $('#myresult tr:last').after(html);
+    }
+
+  },1000);
+});
+
+</script>

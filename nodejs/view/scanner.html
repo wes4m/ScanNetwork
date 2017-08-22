@@ -1,0 +1,318 @@
+ <!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Bootstrap, a sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.">
+<meta name="keywords" content="HTML, CSS, JS, JavaScript, framework, bootstrap, front-end, frontend, web development">
+<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+
+<title>
+
+    ScanNetwork
+
+</title>
+
+<!-- Bootstrap core CSS -->
+<link href="/css/bootstrap.css" rel="stylesheet">
+
+<style>
+body{
+    background: url(http://im55.gulfup.com/CfN2gw.png);
+	background-color: #444;
+    background: url(http://im55.gulfup.com/CfN2gw.png);
+
+}
+
+.vertical-offset-100{
+    padding-top:100px;
+}
+</style>
+
+
+<!-- Documentation extras -->
+<link href="/css/docs.css" rel="stylesheet">
+
+    <!-- Docs master nav -->
+    <header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" class="navbar-brand">ScanNetwork</a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <li class="active">
+          <a href="/">Home</a>
+        </li>
+      <!--
+		<li class="active">
+          <a href="home/scanner">Scanner</a>
+        </li>
+      -->
+        <li>
+          <a href="/contribt">Contribute</a>
+        </li>
+        <li>
+          <a href="/developers">Developers</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+	  <p></p>
+        <div class ="dropdown">
+			<!--<button class="btn btn-default" type="button">
+				Register
+			</button> -->
+
+		<!-- login dropdwon start
+
+			<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+				Login
+			</button>
+            <div class="dropdown-menu" style="padding:17px;">
+              <form class="form-horizontal" role="form">
+					<p><font color="#ffffff">....................................................................</font></p>
+					<div class="form-group">
+                        <label for="inputEmail3" class="col-sm-3 control-label">
+                            Email</label>
+                        <div class="col-sm-9">
+                            <input type="email" class="form-control" id="inputEmail3" placeholder="Email" required>
+                        </div>
+                    </div>
+
+
+
+                    <div class="form-group">
+                        <label for="inputPassword3" class="col-sm-3 control-label">
+                            Password</label>
+                        <div class="col-sm-9">
+                            <input type="password" class="form-control" id="inputPassword3" placeholder="Password" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group last">
+                        <div class="col-sm-offset-3 col-sm-9">
+                            <button type="submit" class="btn btn-success btn-sm">
+                                Sign in</button>
+                                 <button type="reset" class="btn btn-default btn-sm">
+                                Reset</button>
+                        </div>
+                    </div>
+					<p><font color="#ffffff">....................................................................</font></p>
+
+                  </form>
+                </div>
+
+
+
+		</div>
+
+      </ul>
+	  <!-- login dropdwon end-->
+
+    </nav>
+  </div>
+</header>
+
+</br></br></br>
+<div class="container">
+    <div class="row vertical-offset-100">
+    	<div class="col-md-8 col-md-offset-2">
+    		<div class="panel panel-default">
+			  	<div class="panel-heading">
+			    	<h3 class="panel-title">Files Scanner</h3>
+			 	</div>
+			  	<div class="panel-body">
+
+
+					<center>
+					</br>
+					<div class="btn-group">
+<!-- Display filename inside the button instead of its label -->
+<input type="file" id="file-inputs" name ="file-inputs" data-filename-placement="inside">
+<button  id="scan" type="button" class="btn btn-primary" data-color="info" tabindex="7" data-toggle="modal" data-target="#processing-modal"><i class="glyphicon glyphicon-search"></i> Scan</button>
+					</div>
+
+										</br></br>
+										<p>Anti viruses : <span id="anti" class="label label-warning">0</span>
+					Online Contribours : <span id="contribute" class="label label-primary">0</span></p>
+					<p>
+
+					</center>
+
+
+
+			    </div>
+			</div>
+		</div>
+	</div>
+
+
+
+    	<div class="col-md-8 col-md-offset-2">
+    		<div class="panel panel-default">
+
+			  	<div class="panel-body">
+
+				<center>
+
+
+
+
+
+				    <p>Created by <a href="https://twitter.com/abdullahbazaid">Bazaid</a>, <a href="#" target="_blank">unCoder</a> and <a href="#" target="_blank">Simon-Benyo</a></p>
+
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_donations">
+<input type="hidden" name="business" value="bazaid.abdullah@me.com">
+<input type="hidden" name="lc" value="US">
+<input type="hidden" name="item_name" value="ScanNetwork project">
+<input type="hidden" name="no_note" value="0">
+<input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+
+
+					</center>
+
+
+
+			    </div>
+			</div>
+		</div>
+
+	<!-- Static Modal -->
+<div class="modal modal-static fade" id="processing-modal" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="text-center">
+                    <img src="http://www.travislayne.com/images/loading.gif" class="icon" />
+                    <h4>Processing...</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+	</html>
+
+	<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="/js/jquery.js"></script>
+<script src="/js/bootstrap.js"></script>
+<script src="/js/docs.js"></script>
+<script src="/js/bootstrap.file-input.js"></script>
+<script src="/js/socket.io.min.js"></script>
+<script src="/js/socket.io-stream.js"></script>
+<script src="/js/spark-md5.min.js"></script>
+<script> $('input[type=file]').bootstrapFileInput();
+$('.file-inputs').bootstrapFileInput(); </script>
+
+
+<script>
+  $(function(){
+var filehash = '';
+var socket = io.connect();
+var stream = ss.createStream();
+
+socket.on('connect', function(){
+});
+
+
+socket.on('total', function(data){
+  $("#anti").text(''+data.antivirus);
+  $("#contribute").text(''+data.contribute);
+});
+
+
+
+
+
+document.getElementById("file-inputs").addEventListener("change", function(e) {
+
+   var blobSlice = File.prototype.slice || File.prototype.mozSlice || File.prototype.webkitSlice,
+        file = this.files[0],
+        chunkSize = 2097152,                               // read in chunks of 2MB
+        chunks = Math.ceil(file.size / chunkSize),
+        currentChunk = 0,
+        spark = new SparkMD5.ArrayBuffer(),
+        frOnload = function(e) {
+            console.log("read chunk nr", currentChunk + 1, "of", chunks);
+            spark.append(e.target.result);                 // append array buffer
+            currentChunk++;
+
+            if (currentChunk < chunks) {
+                loadNext();
+            }
+            else {
+
+
+               console.log("finished loading");
+               filehash = spark.end();
+
+               console.info("computed hash", spark.end()); // compute hash
+              console.log('filehash  :  ' + filehash)
+            }
+        },
+        frOnerror = function () {
+            console.warn("oops, something went wrong.");
+        };
+
+    function loadNext() {
+        var fileReader = new FileReader();
+        fileReader.onload = frOnload;
+        fileReader.onerror = frOnerror;
+
+        var start = currentChunk * chunkSize,
+            end = ((start + chunkSize) >= file.size) ? file.size : start + chunkSize;
+
+        fileReader.readAsArrayBuffer(blobSlice.call(file, start, end));
+    };
+
+    loadNext();
+
+
+socket.on('yes', function(data){
+window.location = "results/"+filehash;
+});
+    $('#scan').click(function(){
+      console.log(filehash);
+      //var file = this.files[0];// e.target.files[0];
+      var stream = ss.createStream();
+
+      // upload a file to the server.
+      ss(socket).emit('upload', stream, {name:file.name,size: file.size,hash:filehash});
+      ss.createBlobReadStream(file).pipe(stream);
+/*
+  var blobStream = ss.createBlobReadStream(file);
+  var size = 0;
+
+  blobStream.on('data', function(chunk) {
+    size += chunk.length;
+    console.log(Math.floor(size / file.size * 100) + '%');
+  });
+
+  blobStream.pipe(stream);
+*/
+
+//
+});
+
+
+
+});
+});
+</script>
